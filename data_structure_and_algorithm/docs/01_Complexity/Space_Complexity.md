@@ -5,15 +5,19 @@ Space complexity is a measure of the amount of computer memory (space) an algori
 Space complexity is typically expressed in big O notation, similar to time complexity. The notation helps describe how the space requirements grow as the input size increases. The most common space complexities are:
 
 1. **`O(1)` - Constant Space Complexity:**
+
    - The space used by the algorithm remains constant, regardless of the input size. It does not depend on the size of the input.
 
 2. **`O(n)` - Linear Space Complexity:**
+
    - The space used by the algorithm grows linearly with the input size. If the input size is 'n,' the space complexity is O(n).
 
 3. **`O(n^2)`, `O(n^3)`, ... - Polynomial Space Complexity:**
+
    - The space used by the algorithm grows polynomially with the input size. For example, O(n^2) indicates that the space requirements are proportional to the square of the input size.
 
 4. **`O(log n)` - Logarithmic Space Complexity:**
+
    - The space used by the algorithm grows logarithmically with the input size. Algorithms with logarithmic space complexity are often very efficient in terms of memory usage.
 
 5. **`O(2^n)` - Exponential Space Complexity:**
@@ -41,10 +45,10 @@ In this case, the algorithm has a space complexity of O(1) because it only uses 
 def additional_memory_sum(arr):
     sum_array = [0] * len(arr)
     sum_array[0] = arr[0]
-    
+
     for i in range(1, len(arr)):
         sum_array[i] = sum_array[i-1] + arr[i]
-    
+
     return sum_array[-1]
 ```
 

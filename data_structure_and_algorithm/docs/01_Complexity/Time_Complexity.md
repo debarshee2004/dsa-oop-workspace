@@ -11,7 +11,6 @@ In the context of time complexity analysis:
 The time complexity of an algorithm is expressed using big O notation (O()). It provides an upper bound on the growth rate of the running time in the worst-case scenario. For example:
 
 - `O(1)`: Constant time complexity. The running time of the algorithm remains constant regardless of the input size.
-  
 - `O(log n)`: Logarithmic time complexity. The running time grows logarithmically with the input size.
 
 - `O(n)`: Linear time complexity. The running time is directly proportional to the input size.
@@ -35,6 +34,7 @@ def search_element(arr, target):
 ```
 
 In this example:
+
 - `arr` is the array in which we are searching.
 - `target` is the element we are looking for.
 

@@ -1,2 +1,1 @@
-# dsa_workspace
-Collection of Data Structure and Algorithms
+# Data Structures and Algorithm and Object Oriented Programming using Java.
