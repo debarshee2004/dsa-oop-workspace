@@ -3,8 +3,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-.idea
-data_structure_and_algorithm.iml
+.idea/
+01_abstraction.iml
 
 ### Eclipse ###
 .apt_generated
