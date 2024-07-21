@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class ShiftOperation {
 
     // This method multiplies the given number by 2 using bitwise left shift operations
-    private static int multiply(int num) {
-        int i = 2, ans = 0, count = 0;
+    private static int multiply(int num, int i) {
+        int ans = 0, count = 0;
 
         // Loop to handle the bitwise shifting and addition
         while (i > 0) {
@@ -19,8 +19,8 @@ public class ShiftOperation {
     }
 
     // This method divides the given product by 4 using bitwise right shift operations
-    private static int divide(int product) {
-        int i = 4, ans = 0, count = 0;
+    private static int divide(int product, int i) {
+        int ans = 0, count = 0;
 
         // Loop to handle the bitwise shifting and addition
         while (i > 0) {
@@ -37,8 +37,8 @@ public class ShiftOperation {
         System.out.print("Enter the number: ");
         int num = sc.nextInt();  // Read an integer input from the user
 
-        int product = multiply(num);  // Call the multiply method and store the result
-        int result = divide(product);  // Call the divide method and store the result
+        int product = multiply(num, 2);  // Call the multiply method and store the result
+        int result = divide(product, 4);  // Call the divide method and store the result
 
         System.out.println("The product is " + product);  // Print the product
         System.out.println("The result is " + result);    // Print the result of division
